@@ -1,10 +1,12 @@
 html {
     scroll-behavior: smooth;
     background-color: #034B4F;
+    font-family: "Space Grotesk";
 }
 header {
     background-color: #034B4F;
     color: #AEA492;
+    
 }
 nav li {
     display: inline;
