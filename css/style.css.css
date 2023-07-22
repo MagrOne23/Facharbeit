@@ -10,11 +10,10 @@ html {
     font-family: "Space Grotesk";
     font-weight: 500;
 }
-.header {
+header {
     color: #AEA492;
     width: 100%;
     height: 80px;
-    background-color: #AEA492;
 }
 nav li {
     display: inline;
@@ -27,6 +26,7 @@ nav li {
 nav ul {
     padding: 0;
     margin: 0;
+    
 }
 nav a {
     
@@ -41,13 +41,24 @@ nav a {
     padding: 1rem;
     font-size: 17px;
 }
-
-.button-nav {
+#Service-Link, #ueber-uns-link {
     color:rgb(126, 207, 193);
     border-radius: 8px;
     padding-right: 15px;
     padding-left: 15px;
     background-color: #034B4F;
+}
+#Service-Link {
+    padding-right: 30px;
+}
+#Kontakt-Link {
+    border-radius: 8px;
+    background-color: rgb(126, 207, 193);
+    opacity: 1;
+    color: rgb(41, 47, 49);
+    font-weight: 900;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 #text-logo {
     padding-left: 24px;
@@ -57,14 +68,8 @@ nav a {
     justify-content: center;
     align-items: center;
 }
-#Kontakt-Link {
-    border-radius: 8px;
-    background-color: rgb(126, 207, 193);
-    opacity: 1;
-    color: rgb(41, 47, 49);
-    font-weight: 900;
-    padding: 15px;
-}
+
+
 main {
     padding-top: 50px;
 }
