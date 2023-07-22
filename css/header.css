@@ -1,1 +1,10 @@
-
+/*===================
+header.css
+Header CSS mit Einbindug in style.css.css
+===================*/
+header {
+    color: #AEA492;
+    width: 100%;
+    height: 80px;
+    background-color: #AEA492;
+}
