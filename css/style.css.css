@@ -2,7 +2,7 @@
 style.css.css
 Basis mit Einbindug in index.html
 ===================*/
-@import url(css\header.css)
+@import url(css\header.css);
 
 html {
     scroll-behavior: smooth;
