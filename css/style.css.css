@@ -17,19 +17,18 @@ html {
     top: 0;
     left: 0;
     right: 0;
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 3px black;
 }
 .row li {
     display: inline;
-    gap: 10px;
+    gap: 24px;
 }
-.main-nav {
+.main-nav li{
     align-content: center;
     justify-content: center;
 }
 .nav {
     float: right;
-
 }
 
 
