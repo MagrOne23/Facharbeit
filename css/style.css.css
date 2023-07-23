@@ -10,26 +10,32 @@ html {
     font-family: "Space Grotesk";
     font-weight: 500;
 }
-header {
-    color: #AEA492;
-    width: 100%;
-    height: 40px;
-}
 #topNav {
+    display: contents;
     width: 100%;
-    height: 40px;
+    height: 80px;
+    transform: none;
+    opacity: 1;
+    position: fixed;
 
 }
 nav li {
     display: inline;
 }
 #nav {
-    padding: 15px;
-    margin: 1rem 0;
+    padding: 24px;
 }
 nav ul {
+    height: 32px;
+    width: 100%;
     padding: 0;
     margin: 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    gap: 24px;
 }
 nav a {
 
@@ -40,30 +46,30 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 1px;
-    padding: 1rem;
     font-size: 17px;
 }
 #Service-Link, #ueber-uns-link {
     color:rgb(126, 207, 193);
     border-radius: 8px;
-    padding-right: 15px;
-    padding-left: 15px;
     background-color: #034B4F;
 }
 #Service-Link {
-    padding-right: 30px;
+}
+.framer-Con {
+    background-color: rgb(126, 207, 193);
+    border-radius: 8px;
+
+}
+.framer-Con-1 {
+
 }
 #Kontakt-Link {
-    border-radius: 8px;
     background-color: rgb(126, 207, 193);
     opacity: 1;
     color: rgb(41, 47, 49);
     font-weight: 900;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 #text-logo {
-    padding-left: 24px;
     float: left;
     text-align: left;
     display: flex;
