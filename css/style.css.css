@@ -9,8 +9,41 @@ html {
     background-color: #034B4F;
     font-family: "Space Grotesk";
     font-weight: 500;
+}   
+.header {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 10px black;
 }
+.row li {
+    display: inline;
+    gap: 10px;
+}
+.main-nav {
+    align-content: center;
+    justify-content: center;
+}
+.nav {
+    float: right;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 main {
+    margin-top: 100px;
     padding-top: 50px;
 }
 footer {
