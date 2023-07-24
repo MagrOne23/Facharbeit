@@ -10,18 +10,24 @@ html {
     font-family: "Space Grotesk";
     font-weight: 500;
 }   
+body {
+}
 .header {
     width: 100%;
-    height: 80px;
+    height: 100px;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     box-shadow: 0 0 3px black;
 }
+.row {
+    padding: 24px;   
+    align-content: center;
+    justify-content: center;
+}
 .row li {
     display: inline;
-    gap: 24px;
 }
 .main-nav li{
     align-content: center;
@@ -30,6 +36,21 @@ html {
 .nav {
     float: right;
 }
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+.Kontakt-Link {
+    border-radius: 8px;
+}
+header a {
+    font-weight: 600;
+    font-size: 17px;
+    text-decoration: none;
+    color: rgb(126, 207, 193);
+}
+
 
 
 
