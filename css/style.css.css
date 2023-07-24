@@ -6,7 +6,7 @@ Basis mit Einbindug in index.html
 
 html {
     scroll-behavior: smooth;
-    background-color: #034B4F;
+    background-color: #f0f0e9;
     font-family: "Space Grotesk";
     font-weight: 500;
 }   
@@ -20,6 +20,7 @@ body {
     left: 0;
     right: 0;
     box-shadow: 0 0 3px black;
+    background-color: #2a928e;
 }
 .row {
     padding: 24px;   
@@ -43,12 +44,24 @@ ul {
 }
 .Kontakt-Link {
     border-radius: 8px;
+    background-color: #ffdd58;
+    color: #2a928e;
+    padding: 15px;
+}
+.Kontakt-Link:hover {
+    border-radius: 8px;
+    background-color: ;
+    color: #404c9f;
+    padding: 15px;
 }
 header a {
     font-weight: 600;
     font-size: 17px;
     text-decoration: none;
-    color: rgb(126, 207, 193);
+    color: #ffdd58;
+}
+header a:hover {
+    color: #404c9f;
 }
 
 
