@@ -209,5 +209,12 @@ footer a:hover {
     image-rendering: pixelated;
     flex-shrink: 0;
     background-size: 100% 100%;
-    background-image: ;
+    background-image: url(images\Insta-Logo.svg);
+    opacity: 1;
+    flex: none;
+    position: relative;
+    height: 20px;
+    width: 20px;
+    
+
 }
