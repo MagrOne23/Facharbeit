@@ -205,3 +205,9 @@ footer a:hover {
     position: relative;
     width: min-content;
 }
+.social-image {
+    image-rendering: pixelated;
+    flex-shrink: 0;
+    background-size: 100% 100%;
+    background-image: ;
+}
