@@ -80,9 +80,9 @@ main {
     padding-top: 50px;
 }
 footer {
+    align-items: center;
     background-color: #2a928e;
     color: #ffdd58;
-    align-items: center;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -108,10 +108,15 @@ footer a:hover {
     height: min-content;
     justify-content: flex-start;
 }
-.footer-Link-Block-1 {
+.footer-Link-Block {
     flex: 1 0 0px;
     gap: 15px;
     margin: 0;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
 }
 .First-Link {
     outline: none;
@@ -120,6 +125,7 @@ footer a:hover {
     justify-content: flex-start;
     flex-shrink: 0;
     transform: none;
+    gap: 15px;
 }
 .FL-Text {
     font-weight: 600;   
@@ -148,4 +154,54 @@ footer a:hover {
     text-align: left;
     margin: 0;
     color: #e5cc57;
+}
+.below-Links {
+    align-items: center;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: min-content;
+    justify-content: space-between;
+    max-width: 1000px;
+    overflow: visible;
+    padding: 30px 0 0;
+    position: relative;
+    border-style: solid;
+    border-top-width: 1px;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+.copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+    flex: none;
+    height: auto;
+    overflow: visible;
+    position: relative;
+    white-space: pre;
+}
+.copy-Text {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    color: #f0f0e9;
+}
+.socials {
+    align-items: center;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    height: min-content;
+    justify-content: flex-start;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    width: min-content;
 }
