@@ -1,6 +1,6 @@
 /*===================
 style.css.css
-Basis mit Einbindug in index.html
+Basis mit Einbindung in index.html
 ===================*/
 
 
@@ -15,7 +15,7 @@ body {
 .header {
     width: 100%;
     height: 100px;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -172,20 +172,22 @@ footer a:hover {
     border-bottom-width: 0;
     border-left-width: 0;
     border-right-width:0;
+    width: 100%;
 }
 .copyright {
+    align-items: center;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
     flex-shrink: 0;
-    transform: none;
+    flex-wrap: nowrap;
     flex: none;
-    height: auto;
+    height: min-content;
+    justify-content: space-between;
+    max-width: 1000px;
     overflow: visible;
     position: relative;
-    white-space: pre;
-    gap: 20px;
-    flex-wrap: wrap;
+    width: 100%;
+
 }
 .copy-Text {
     font-size: 14px;
@@ -193,9 +195,27 @@ footer a:hover {
     text-align: left;
     color: #f0f0e9;
     height: min-content;
-    width: min-content;
     display: flex;
     flex-wrap: wrap;
+    outline: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+
+}
+.img-links {
+    display: flex;
+    align-items: center;
+    flex: none;
+    flex-direction: row;
+    gap: 10px;
+    height: min-content;
+    justify-content: flex-start;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    width: min-content;
 }
 .copy-Text-ri {
     font-size: 14px;
@@ -206,5 +226,7 @@ footer a:hover {
     width: min-content;
     display: flex;
     flex-wrap: wrap;
+    margin-left: auto;
+    align-items: normal;
 }
 
