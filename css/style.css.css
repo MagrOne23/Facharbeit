@@ -5,117 +5,117 @@ Basis mit Einbindung in index.html
 
 
 html {
-    scroll-behavior: smooth;
     background-color: #EFF291;
     font-family: "Space Grotesk";
     font-weight: 500;
+    scroll-behavior: smooth;
 }   
 body {
     margin: 0;
 }
 .header {
+    background-color: #EFF291;
+    flex-basis: 100%;
     flex: none;
     height: auto;
     position: relative;
-    background-color: #EFF291;
-    flex-basis: 100%;
 }
 .contents {
     display: contents;
     flex-wrap: wrap;
 }
 .header-frame {
-    background-color: #EFF291;
-    opacity: 1;
     align-items: center;
-    flex-direction: row;
-    gap: 24px;
-    min-height: 80px;
-    height: min-content;
-    padding: 24px;
+    background-color: #EFF291;
     display: flex;
-    position: relative;
-    justify-content: center;
+    flex-direction: row;
     flex-wrap: wrap;
+    gap: 24px;
+    height: min-content;
+    justify-content: center;
+    min-height: 80px;
+    opacity: 1;
+    padding: 24px;
+    position: relative;
 }
 .TitleIco {
-    opacity: 1;
     align-items: center;
-    flex-direction: row;
-    height: min-content;
-    flex-wrap: wrap;
-    padding: 0;
-    justify-content: space-between;
-    flex: 1 0 0px;
-    overflow: visible;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 0 0px;
+    height: min-content;
+    justify-content: space-between;
+    opacity: 1;
+    overflow: visible;
+    padding: 0;
     position: relative;
 }
 .Logo-Li {
-    opacity: 1;
     flex: none;
     height: 40px;
+    opacity: 1;
     overflow: visible;
     position: relative;
     width: 350px;
 }
 .Boximg {
-    position: absolute;
     border-radius: inherit;
-    top: 0;
-    left: 0;
-    right: 0;
     bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 .Link-Header {
-    outline: none;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     flex-shrink: 0;
-    transform: none;
-    opacity: 1;
     flex: none;
     height: auto;
+    justify-content: flex-start;
+    opacity: 1;
+    outline: none;
     overflow: visible;
     position: relative;
+    transform: none;
     white-space: pre;
     width: auto;
 }
 .a-header {
+    color: #262626;
     font-size: 17px;
     font-weight: 700;
     line-height: 1.5em;
     text-align: left;
-    color: #262626;
     text-decoration: none;
 }
 .HoveredLinkBox {
     background-color: #262626;
     border-radius: 8px;
-    opacity: 1;
-    padding: 15px;
     display: flex;
     flex-direction: row;
+    opacity: 1;
+    padding: 15px;
     position: relative;
 }
 .Text-Box-Link {
-    outline: none;
+    display: flex;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    transform: none;
     opacity: 1;
-    display: flex;
+    outline: none;
     position: relative;
+    transform: none;
 }
 .HoveredLinkText {
-    font-weight: 900;
-    text-align: center;
     color: #EFF291;
-    text-decoration: none;
     display: flex;
+    font-weight: 900;
     position: relative;
+    text-align: center;
+    text-decoration: none;
 }
 .HoveredLinkText:hover {
     color: #ECF23D;
@@ -125,17 +125,15 @@ body {
 
 
 
-
-
-
-
-
-
-
 main {
-    padding-top: 50px;
     background-color: #BFBFBF
+    padding-top: 50px;
 }
+
+
+
+
+
 footer {
     align-items: center;
     background-color: #EFF291;
@@ -144,13 +142,13 @@ footer {
     flex-direction: column;
     flex-wrap: nowrap;
     gap: 30px;
+    margin: 0;
     padding: 60px 40px 60px 40px;
     position: relative  ;
-    margin: 0;
 }
 footer a {
-    text-decoration: none;
     color: #262626;
+    text-decoration: none;
 }
 footer a:hover {
     color: #BFBFBF;
@@ -159,9 +157,9 @@ footer a:hover {
     align-content: flex-start;
     align-items: flex-start;
     display: flex;
-    flex: none;
     flex-direction: row;
     flex-wrap: wrap;
+    flex: none;
     gap: 40px;
     height: min-content;
     justify-content: flex-start;
@@ -175,18 +173,18 @@ footer a:hover {
     gap: 15px;
     height: min-content;
     justify-content: flex-start;
-    position: relative;
     margin: 0;
+    position: relative;
     width: 269px;
 }
 .First-Link {
-    outline: none;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     flex-shrink: 0;
-    transform: none;
     gap: 15px;
+    justify-content: flex-start;
+    outline: none;
+    transform: none;
 }
 .FL-Text {
     font-weight: 600;   
@@ -194,50 +192,50 @@ footer a:hover {
 .Other-Links {
     align-items: flex-start;
     display: flex;
-    flex: none;
     flex-direction: column;
     flex-wrap: nowrap;
+    flex: none;
     gap: 10px;
     justify-content: flex-start;
-    position: relative;
     margin: 0;
+    position: relative;
 }
 .Framer-Link {
-    outline: none;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    transform: none;
     margin: 0;
+    outline: none;
+    transform: none;
 }
 .Links-Text {
-    font-weight: 500;
-    text-align: left;
-    margin: 0;
     color: #262626;
+    font-weight: 500;
+    margin: 0;
     opacity: 0.8;
+    text-align: left;
 }
 .Links-Text:hover {
     color: #BFBFBF;
 }
 .below-Links {
     align-items: center;
+    border-bottom-width: 0;
+    border-color: #262626;
+    border-left-width: 0;
+    border-right-width:0;
+    border-style: solid;
+    border-top-width: 1px;
     display: flex;
-    flex: none;
     flex-direction: row;
     flex-wrap: wrap;
+    flex: none;
     height: min-content;
     justify-content: space-between;
     max-width: 1000px;
     overflow: visible;
     padding: 30px 0 0;
     position: relative;
-    border-color: #262626;
-    border-style: solid;
-    border-top-width: 1px;
-    border-bottom-width: 0;
-    border-left-width: 0;
-    border-right-width:0;
     width: 100%;
 }
 .copyright {
@@ -253,28 +251,26 @@ footer a:hover {
     overflow: visible;
     position: relative;
     width: 100%;
-
 }
 .copy-Text {
+    color: #262626;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex-wrap: wrap;
     font-size: 14px;
     font-weight: 500;
-    text-align: left;
-    color: #262626;
     height: min-content;
-    display: flex;
-    flex-wrap: wrap;
-    outline: none;
-    flex-direction: column;
     justify-content: flex-start;
-    flex-shrink: 0;
+    outline: none;
+    text-align: left;
     transform: none;
-
 }
 .img-links {
-    display: flex;
     align-items: center;
-    flex: none;
+    display: flex;
     flex-direction: row;
+    flex: none;
     gap: 10px;
     height: min-content;
     justify-content: flex-start;
@@ -284,15 +280,15 @@ footer a:hover {
     width: min-content;
 }
 .copy-Text-ri {
-    font-size: 14px;
-    font-weight: 500;
-    text-align: left;
+    align-items: normal;
     color: #262626;
-    height: min-content;
-    width: min-content;
     display: flex;
     flex-wrap: wrap;
+    font-size: 14px;
+    font-weight: 500;
+    height: min-content;
     margin-left: auto;
-    align-items: normal;
+    text-align: left;
+    width: min-content;
 }
 
