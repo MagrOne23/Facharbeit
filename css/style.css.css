@@ -6,7 +6,7 @@ Basis mit Einbindung in index.html
 
 html {
     scroll-behavior: smooth;
-    background-color: #f0f0e9;
+    background-color: #BFBFBF;
     font-family: "Space Grotesk";
     font-weight: 500;
 }   
@@ -22,7 +22,7 @@ body {
     flex-wrap: wrap;
 }
 .header-frame {
-    background-color: #2a928e;
+    background-color: #EFF291;
     opacity: 1;
     align-items: center;
     flex-direction: row;
@@ -80,14 +80,14 @@ body {
 }
 .a-header {
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 1.5em;
     text-align: left;
-    color: #e5cc57;
+    color: #262626;
     text-decoration: none;
 }
 .HoveredLinkBox {
-    background-color: #404c9f;
+    background-color: #262626;
     border-radius: 8px;
     opacity: 1;
     padding: 15px;
@@ -102,10 +102,13 @@ body {
     opacity: 1;
 }
 .HoveredLinkText {
-    font-weight: 700;
+    font-weight: 900;
     text-align: center;
-    color: #2a928e;
+    color: #EFF291;
     text-decoration: none;
+}
+.HoveredLinkText:hover {
+    color: #ECF23D;
 }
 
 
@@ -125,8 +128,8 @@ main {
 }
 footer {
     align-items: center;
-    background-color: #2a928e;
-    color: #ffdd58;
+    background-color: #EFF291;
+    color: #262626;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -137,10 +140,10 @@ footer {
 }
 footer a {
     text-decoration: none;
-    color: #ffdd58;
+    color: #262626;
 }
 footer a:hover {
-    color: #404c9f;
+    color: #BFBFBF;
 }
 .footer-Link-tree {
     align-content: flex-start;
@@ -201,7 +204,11 @@ footer a:hover {
     font-weight: 500;
     text-align: left;
     margin: 0;
-    color: #e5cc57;
+    color: #262626;
+    opacity: 0.8;
+}
+.Links-Text:hover {
+    color: #BFBFBF;
 }
 .below-Links {
     align-items: center;
@@ -215,6 +222,7 @@ footer a:hover {
     overflow: visible;
     padding: 30px 0 0;
     position: relative;
+    border-color: #262626;
     border-style: solid;
     border-top-width: 1px;
     border-bottom-width: 0;
@@ -241,7 +249,7 @@ footer a:hover {
     font-size: 14px;
     font-weight: 500;
     text-align: left;
-    color: #f0f0e9;
+    color: #262626;
     height: min-content;
     display: flex;
     flex-wrap: wrap;
@@ -269,7 +277,7 @@ footer a:hover {
     font-size: 14px;
     font-weight: 500;
     text-align: left;
-    color: #f0f0e9;
+    color: #262626;
     height: min-content;
     width: min-content;
     display: flex;
