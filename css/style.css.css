@@ -6,7 +6,7 @@ Basis mit Einbindung in index.html
 
 html {
     scroll-behavior: smooth;
-    background-color: #BFBFBF;
+    background-color: #EFF291;
     font-family: "Space Grotesk";
     font-weight: 500;
 }   
@@ -133,8 +133,8 @@ body {
 
 
 main {
-    margin-top: 100px;
     padding-top: 50px;
+    background-color: #BFBFBF
 }
 footer {
     align-items: center;
