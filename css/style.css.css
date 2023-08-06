@@ -104,19 +104,22 @@ footer a:hover {
     flex: none;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 60px;
+    gap: 40px;
     height: min-content;
     justify-content: flex-start;
 }
 .footer-Link-Block {
-    flex: 1 0 0px;
-    gap: 15px;
-    margin: 0;
+    align-items: flex-start;
     display: flex;
-    flex: none;
     flex-direction: column;
     flex-wrap: nowrap;
-    align-items: flex-start;
+    flex: none;
+    gap: 15px;
+    height: min-content;
+    justify-content: flex-start;
+    position: relative;
+    margin: 0;
+    width: 269px;
 }
 .First-Link {
     outline: none;
