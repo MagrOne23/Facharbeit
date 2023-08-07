@@ -15,8 +15,6 @@ body {
 }
 .header {
     background-color: #EFF291;
-    flex-basis: 100%;
-    flex: none;
     height: auto;
     position: relative;
 }
@@ -90,6 +88,9 @@ body {
     text-align: left;
     text-decoration: none;
 }
+.a-header:hover {
+    font-size: 18px;
+}
 .HoveredLinkBox {
     background-color: #262626;
     border-radius: 8px;
@@ -116,9 +117,12 @@ body {
     position: relative;
     text-align: center;
     text-decoration: none;
+    font-size: 17px;
 }
 .HoveredLinkText:hover {
     color: #ECF23D;
+    text-shadow: 0 0 50px #EFF291;
+    font-size: 18px;
 }
 
 
