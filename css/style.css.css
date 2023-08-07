@@ -129,9 +129,91 @@ body {
 
 
 
-main {
+.main {
     background-color: #BFBFBF;
-    padding-top: 50px;
+    align-items: center;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    gap: 10px;
+    height: min-content;
+    justify-content: center;
+    overflow: hidden;
+    padding: 100px 0;
+    position: relative;
+    flex-wrap: nowrap;
+}
+.FIrst-Home {
+    align-items: center;
+    background-color: #BFBFBF;
+    display: flex;
+    flex: 1 0 0px;
+    flex-direction: column;
+    gap: 100px;
+    height: min-content;
+    justify-content: center;
+    max-width: 1000px;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    flex-wrap: nowrap;
+}
+.FHAB1 {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 80px;
+    height: min-content;
+    justify-content: center;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+}
+.FHAB2 {
+    align-content: center;
+    align-items: center;
+    background-color: #BFBFBF;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 80px;
+    height: min-content;
+    justify-content: center;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+}
+.PIC {
+    align-items: center;
+    border-radius: 20px;
+    display: flex;
+    flex: 1 0 0px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 20px;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+}
+.PICBOX {
+    position: absolute;
+    border-radius: inherit;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.pic1 {
+    display: block;
+    border-radius: inherit;
+    object-position: center;
+    object-fit: cover;
+    image-rendering: auto;
 }
 
 
