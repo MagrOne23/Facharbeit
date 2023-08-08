@@ -142,6 +142,7 @@ body {
     padding: 100px 0;
     position: relative;
     flex-wrap: nowrap;
+    height: min-content;
 }
 .FIrst-Home {
     align-items: center;
@@ -162,9 +163,8 @@ body {
     align-content: center;
     align-items: center;
     display: flex;
-    flex: none;
-    flex-direction: row;
     flex-wrap: wrap;
+    flex-direction: row;
     gap: 80px;
     height: min-content;
     justify-content: center;
@@ -194,19 +194,10 @@ body {
     flex: 1 0 0px;
     flex-direction: column;
     flex-wrap: nowrap;
-    gap: 20px;
     justify-content: center;
     overflow: hidden;
     padding: 0;
     position: relative;
-}
-.PICBOX {
-    position: absolute;
-    border-radius: inherit;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
 }
 .pic1 {
     display: block;
@@ -214,6 +205,137 @@ body {
     object-position: center;
     object-fit: cover;
     image-rendering: auto;
+}
+.ContentbesideIMG {
+    align-items: flex-start;
+    display: flex;
+    flex: 1 0 0px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 20px;
+    height: min-content;
+    justify-content: center;
+    padding: 0;
+    position: relative;
+}
+.H1 {
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+}
+.H1 h1 {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    text-align: left;
+    color: #EFF291;
+    margin: 0;
+}
+.Text {
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+}
+.Text h2 {
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    line-height: 1.5em;
+    text-align: left;
+    color: #262626;
+    margin: 0;
+}
+.Buttons {
+    align-items: center;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 15px;
+    height: min-content;
+    justify-content: center;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    width: min-content;
+}
+.bu1 {
+    align-items: center;
+    background-color: #262626;
+    border-radius: 8px;
+    box-shadow: 0 0 10px  #262626;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    height: 25px;
+    justify-content: center;
+    overflow: visible;
+    padding: 15px;
+    position: relative;
+    width: min-content;
+}
+.textFRame {
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+    flex: none;
+    height: auto;
+    position: relative;
+    white-space: pre;
+    width: auto;
+}
+.textFRame a {
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    color: #EFF291;
+    text-decoration: none;
+}
+.bu2 {
+    align-items: center;
+    background-color: #EFF291;
+    border-radius: 8px;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    height: 25px;
+    justify-content: center;
+    overflow: visible;
+    padding: 15px;
+    position: relative;
+    width: min-content;
+}
+.textFRame1 {
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+    flex: none;
+    height: auto;
+    position: relative;
+    white-space: pre;
+    width: auto;
+}
+.textFRame1 a {
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    color: #262626;
+    text-decoration: none;
 }
 
 
