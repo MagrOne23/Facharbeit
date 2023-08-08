@@ -139,7 +139,7 @@ body {
     height: min-content;
     justify-content: center;
     overflow: hidden;
-    padding: 100px 0;
+    padding: 100px 24px;
     position: relative;
     flex-wrap: nowrap;
     height: min-content;
