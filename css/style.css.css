@@ -171,6 +171,7 @@ body {
     overflow: visible;
     padding: 0;
     position: relative;
+    width: min-content;
 }
 .FHAB2 {
     align-content: center;
