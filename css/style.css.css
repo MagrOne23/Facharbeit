@@ -157,7 +157,7 @@ body {
     overflow: visible;
     padding: 0;
     position: relative;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 .FHAB1 {
     align-content: center;
