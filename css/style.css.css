@@ -153,6 +153,7 @@ body {
     gap: 100px;
     height: min-content;
     justify-content: center;
+    max-width: 1000px;
     overflow: visible;
     padding: 0;
     position: relative;
