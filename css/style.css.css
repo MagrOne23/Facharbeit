@@ -173,6 +173,11 @@ body {
     position: relative;
     width: min-content;
 }
+@media screen and (min-width: 730px) {
+    .FHAB1 {
+        flex-wrap: nowrap;
+    }
+}
 .FHAB2 {
     align-content: center;
     align-items: center;
@@ -199,14 +204,15 @@ body {
     overflow: hidden;
     padding: 0;
     position: relative;
-    min-width: min-content;
+    width: min-content;
 }
 .pic1 {
-    display: block;
+    display: flex;
     border-radius: inherit;
     object-position: center;
     object-fit: cover;
     image-rendering: auto;
+    width: min-content;
 }
 .ContentbesideIMG {
     align-items: flex-start;
