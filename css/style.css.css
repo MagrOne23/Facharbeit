@@ -178,21 +178,6 @@ body {
         flex-wrap: nowrap;
     }
 }
-.FHAB2 {
-    align-content: center;
-    align-items: center;
-    background-color: #BFBFBF;
-    display: flex;
-    flex: none;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 80px;
-    height: min-content;
-    justify-content: center;
-    overflow: visible;
-    padding: 0;
-    position: relative;
-}
 .PIC {
     align-items: center;
     border-radius: 20px;
@@ -345,6 +330,199 @@ body {
     color: #262626;
     text-decoration: none;
 }
+
+.FHAB2 {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 100px;
+    height: min-content;
+    justify-content: center;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    width: min-content;
+}
+@media screen and (min-width: 750px) {
+    .FHAB2 {
+        flex-wrap: nowrap;
+    }
+}
+.ConbeIM2 {
+    align-items: flex-start;
+    display: flex;
+    flex: 1 0 0px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 20px;
+    height: min-content;
+    justify-content: center;
+    padding: 0;
+    position: relative;
+}
+.h1 {
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+}
+.h1 h1 {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    text-align: left;
+    color: #EFF291;
+    margin: 0;
+}
+.h2 {
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+    margin: 0;
+}
+.h2 h2 {
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    line-height: 1.5em;
+    text-align: left;
+    color: #262626;
+    margin: 0;
+}
+.butto {
+    align-items: center;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 15px;
+    height: min-content;
+    justify-content: center;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    width: min-content;
+}
+.but1 {
+    align-items: center;
+    background-color: #262626;
+    border-radius: 8px;
+    box-shadow: 0 0 10px  #262626;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    height: 25px;
+    justify-content: center;
+    overflow: visible;
+    padding: 15px;
+    position: relative;
+    width: min-content;
+}
+.butext {
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+    flex: none;
+    height: auto;
+    position: relative;
+    white-space: pre;
+    width: auto;
+}
+.butext a {
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    color: #EFF291;
+    text-decoration: none;
+}
+.but2 {
+    align-items: center;
+    background-color: #EFF291;
+    border-radius: 8px;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    height: 25px;
+    justify-content: center;
+    overflow: visible;
+    padding: 15px;
+    position: relative;
+    width: min-content;
+}
+.butext2 {
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+    flex: none;
+    height: auto;
+    position: relative;
+    white-space: pre;
+    width: auto;
+}
+.butext2 a {
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    color: #262626;
+    text-decoration: none; 
+}
+.pi2 {
+    align-items: center;
+    border-radius: 20px;
+    display: flex;
+    flex: 1 0 0px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    height: min-content;
+    width: min-content;
+    min-width: 324px;
+}
+.PIC2 {
+    align-items: center;
+    border-radius: 20px;
+    display: flex;
+    flex: 1 0 0px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: min-content;
+    height: min-content;
+}
+.pic2 {
+    display: flex;
+    border-radius: inherit;
+    object-position: center;
+    object-fit: cover;
+    image-rendering: auto;
+    width: min-content;
+}
+
+
 
 
 
