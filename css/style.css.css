@@ -134,7 +134,7 @@ body {
     align-items: center;
     display: flex;
     flex: none;
-    flex-direction: row;
+    flex-direction: column;
     gap: 10px;
     height: min-content;
     justify-content: center;
@@ -522,7 +522,158 @@ body {
     width: min-content;
 }
 
+.Blog {
+    align-items: center;
+    background-color: #BFBFBF;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 60px;
+    height: min-content;
+    justify-content: center;
+    overflow: hidden;
+    padding: 100px 40px;
+    position: relative;
+    width: min-content;
+}
+.Blog-Frame {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: wrap;
 
+    height: min-content;
+    justify-content: center;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    width: min-content;
+}
+.FrameCard1 {
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 
+    0 0.7961918735236395px 2.3885756205709185px -0.625px #0000000d,
+    0 2.414506143104518px 7.2435184293135535px -1.25px #0000000d,
+    0 6.382653521484461px 19.147960564453385px -1.875px #0000000d,
+    0 20px 60px -2.5px #0000000d;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 0px;
+    height: min-content;
+    justify-content: center;
+    min-width: 100px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 320px;
+}
+.CardImage {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    flex: none;
+    overflow: hidden;
+    position: relative;
+}
+.div1 {
+    position: absolute;
+    border-radius: inherit;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.img1 {
+    display: block;
+    border-radius: inherit;
+    object-position: center;
+    object-fit: cover;
+    image-rendering: auto;
+}
+.frameCon {
+    align-items: flex-start;
+    background-color: #ECF23D;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 20px;
+    height: min-content;
+    justify-content: center;
+    padding: 30px;
+    position: relative;
+}
+.frameh {
+    flex: none;
+    height: auto;
+    overflow: visible;
+    position: relative;
+}
+.frameh h3 {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    line-height: 1.4em;
+    text-align: left;
+    color: #262626;
+    margin: 0;
+}
+.framet {
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+}
+.framet p {
+    font-weight: 500;
+    line-height: 1.6em;
+    text-align: left;
+    color: #262626;
+    margin: 0;
+}
+.framebutt {
+    align-items: center;
+    background-color: #BFBFBF;
+    border-radius: 8px;
+    box-shadow: 
+        0 0.7065919983928324px 0.7065919983928324px -0.625px #00000026, 
+        0 1.8065619053231785px 1.8065619053231785px -1.25px #00000025, 
+        0 3.6217592146567767px 3.6217592146567767px -1.875px #00000023, 
+        0 6.8655999097303715px 6.8655999097303715px -2.5px #00000020, 
+        0 13.646761411524492px 13.646761411524492px -3.125px #0000001b, 
+        0 30px 30px -3.75px #0000000d;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    justify-content: center;
+    overflow: visible;
+    padding: 15px;
+    position: relative;
+    width: min-content;
+}
+.framebutttext {
+    flex: none;
+    height: auto;
+    position: relative;
+    width: auto;
+}
+.framebutttext a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #262626;
+    text-decoration: none;
+    text-align: start;
+    line-height: 1.2em;
+}
 
 
 
