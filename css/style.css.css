@@ -765,6 +765,7 @@ body {
     background: #262626;
     color: #ECF23D;
     max-width: 262.5px;
+    min-width: 127.5px;
 }
 .In-Text {
     display: inline-block;
