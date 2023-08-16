@@ -165,7 +165,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 80px;
+    gap: 100px;
     height: min-content;
     justify-content: center;
     overflow: visible;
@@ -173,7 +173,7 @@ body {
     position: relative;
     width: min-content;
 }
-@media screen and (min-width: 730px) {
+@media screen and (min-width: 750px) {
     .FHAB1 {
         flex-wrap: nowrap;
     }
