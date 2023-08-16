@@ -801,6 +801,7 @@ body {
     width: 60px;
     background: #ECF23D;
     color: #262626;
+    border-radius: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
