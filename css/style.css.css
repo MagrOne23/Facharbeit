@@ -199,6 +199,7 @@ body {
     overflow: hidden;
     padding: 0;
     position: relative;
+    min-width: min-content;
 }
 .pic1 {
     display: block;
