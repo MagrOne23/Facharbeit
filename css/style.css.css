@@ -155,7 +155,7 @@ body {
     justify-content: center;
     max-width: 1000px;
     overflow: visible;
-    padding: 0;
+    padding: 100px 40px;
     position: relative;
     flex-wrap: nowrap;
 }
