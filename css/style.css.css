@@ -56,14 +56,20 @@ body {
     overflow: visible;
     position: relative;
     width: 350px;
+    display: flex;
 }
 .Boximg {
     border-radius: inherit;
     bottom: 0;
     left: 0;
-    position: absolute;
+    position: relative;
     right: 0;
     top: 0;
+    display: flex;
+}
+.Boximg a {
+    width: 341.88px;
+    height: 40px;
 }
 .Link-Header {
     display: flex;
@@ -210,6 +216,7 @@ body {
     justify-content: center;
     padding: 0;
     position: relative;
+    width: min-content;
 }
 .H1 {
     outline: none;
@@ -226,6 +233,7 @@ body {
     text-align: left;
     color: #EFF291;
     margin: 0;
+    display: flex;
 }
 .Text {
     outline: none;
@@ -766,6 +774,7 @@ body {
     color: #ECF23D;
     max-width: 262.5px;
     min-width: 127.5px;
+    font-family: 'Space Grotesk';
 }
 .In-Text {
     display: inline-block;
@@ -781,6 +790,7 @@ body {
     font-size: 16px;
     color: #ECF23D;
     max-width: 540px;
+    font-family: 'Space Grotesk';
 }
 .CoSend {
     display: inline-block;
@@ -790,12 +800,13 @@ body {
     border: none;
     border-radius: 8px;
     padding: 15px;
-    font-weight: 600;
+    font-weight: 900;
     font-size: 16px;
     background-color: #ECF23D;
     cursor: pointer;
     color: #262626;
     opacity: 1;
+    font-family: 'Space Grotesk';
 }
 .submittedcheck {
     height: 60px;
