@@ -65,7 +65,7 @@ body::-webkit-scrollbar{
     border-radius: inherit;
     bottom: 0;
     left: 0;
-    position: relative;
+    position: absolute;
     right: 0;
     top: 0;
     display: flex;
