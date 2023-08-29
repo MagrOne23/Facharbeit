@@ -1,5 +1,5 @@
 # Facharbeit
-Dieses Projekt dient der Programmierung einer Website für meine Facharbeit.
+Dieses Projekt dient der Programmierung einer Webseite für meine Facharbeit.
 
 ## Backup Website
 🔗 https://facharbeit.vercel.app/
