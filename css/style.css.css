@@ -583,6 +583,73 @@ body::-webkit-scrollbar{
     padding: 0;
     position: relative;
     width: 320px;
+    transition: transform ease 300ms;
+}
+.FrameCard1:hover {
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 
+    0 0.7961918735236395px 2.3885756205709185px -0.625px #0000000d,
+    0 2.414506143104518px 7.2435184293135535px -1.25px #0000000d,
+    0 6.382653521484461px 19.147960564453385px -1.875px #0000000d,
+    0 20px 60px -2.5px #0000000d;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 0px;
+    height: min-content;
+    justify-content: center;
+    min-width: 100px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 320px;
+    transform: translate(0, -10px);
+}
+.FrameCard2:hover {
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 
+    0 0.7961918735236395px 2.3885756205709185px -0.625px #0000000d,
+    0 2.414506143104518px 7.2435184293135535px -1.25px #0000000d,
+    0 6.382653521484461px 19.147960564453385px -1.875px #0000000d,
+    0 20px 60px -2.5px #0000000d;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 0px;
+    height: min-content;
+    justify-content: center;
+    min-width: 100px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 320px;
+    transform: translate(0, -10px);
+}
+.FrameCard3:hover {
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 
+    0 0.7961918735236395px 2.3885756205709185px -0.625px #0000000d,
+    0 2.414506143104518px 7.2435184293135535px -1.25px #0000000d,
+    0 6.382653521484461px 19.147960564453385px -1.875px #0000000d,
+    0 20px 60px -2.5px #0000000d;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 0px;
+    height: min-content;
+    justify-content: center;
+    min-width: 100px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 320px;
+    transform: translate(0, -10px);
 }
 .CardImage {
     border-top-left-radius: 20px;
@@ -689,7 +756,13 @@ body::-webkit-scrollbar{
     text-decoration: none;
     text-align: center;
 }
-
+.framebutttext a:hover {
+    font-size: 14px;
+    font-weight: 600;
+    color: #ECF23D;
+    text-decoration: none;
+    text-align: center;
+}
 .ContactDiv {
     align-items: center;
     background-color: #BFBFBF;
@@ -717,7 +790,7 @@ body::-webkit-scrollbar{
     font-size: 50px;
     font-weight: 700;
     text-align: left;
-    color: #262626;
+    color: #ECF23D  ;
     margin: 0;
 }
 .CoFrame {
