@@ -840,6 +840,10 @@ body::-webkit-scrollbar{
 .mainDATA a {
     color: #ECF23D;
 }
+.mainDATA h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
 
 
 
