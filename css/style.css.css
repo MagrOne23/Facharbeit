@@ -909,15 +909,26 @@ body::-webkit-scrollbar{
     position: relative;
     flex-wrap: nowrap;
     height: min-content;
+    margin-right: 0;
+    margin-left: 0;
 }
 .mainDATA a {
     color: #ECF23D;
 }
 .mainDATA h1 {
-    font-size: 50px;
+    font-size: 35px;
     font-weight: 800;
 }
-
+.mainDATA li {
+    display: flex;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+}
+.mainDATA p {
+    display: flex;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+}
 
 
 
