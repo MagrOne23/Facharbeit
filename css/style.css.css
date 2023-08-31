@@ -822,6 +822,24 @@ body::-webkit-scrollbar{
     align-items: center;
     transform: none;
 }
+.mainDATA {
+    background-color: #BFBFBF;
+    align-items: center;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    gap: 10px;
+    height: min-content;
+    justify-content: center;
+    overflow: hidden;
+    padding: 60px 20px;
+    position: relative;
+    flex-wrap: nowrap;
+    height: min-content;
+}
+.mainDATA a {
+    color: #ECF23D;
+}
 
 
 
