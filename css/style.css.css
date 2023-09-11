@@ -184,7 +184,7 @@ body::-webkit-scrollbar{
 }
 @media screen and (min-width: 755px) {
     .FHAB1 {
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
     }
 }
 .PIC {
