@@ -931,6 +931,239 @@ body::-webkit-scrollbar{
 }
 
 
+.Main404 {
+    align-content: flex-start;
+    align-items: flex-start;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: #BFBFBF;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 0;
+    height: min-content;
+    justify-content: flex-start;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+} 
+.Grid404 {
+    display: grid;
+    flex: none;
+    gap: 20px;
+    grid-auto-rows: min-content;
+    grid-template-columns: repeat(2, minmax(40px, 1fr));
+    grid-template-rows: repeat(2,min-content);
+    height: min-content;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+@media (min-width: 810px) and (max-width: 1199px) {
+    .Grid404 {
+        grid-template-columns: repeat(2, minmax(40px, 1fr));
+    }
+}
+.A404, .D404 {
+    align-items: center;
+    align-content: center;
+    background-color: #ECF23D;
+    border-radius: 40px;
+    display: flex;
+    flex: none;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 0;
+    grid-column: auto / span 2;
+    height: 320px;
+    justify-content: center;
+    justify-self: center;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+@media (min-width: 810px) and (max-width: 1199px) {
+    border-radius: 30px;
+}
+.head404 {
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+    flex: none;
+    height: auto;
+    overflow: visible;
+    position: relative;
+    white-space: pre;
+    width: auto;
+    margin: 0;
+}
+.head404 h2 {
+    font-size: 80px;
+    font-weight: 700;
+    text-align: left;
+    color: #262626;
+    margin: 0;
+}
+.text404 {
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+    flex: none;
+    height: auto;
+    max-width: 400px;
+    overflow: visible;
+    position: relative;
+    white-space: pre;
+    width: 100%;
+    word-break: break-word;
+    word-wrap: break-word;
+}
+.text404 h3 {
+    font-weight: 400;
+    color: #262626;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}
+.B404, .C404 {
+    align-items: center;
+    align-content: center;
+    background-color: #ECF23D;
+    border-radius: 20px;
+    display: flex;
+    flex: none;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 0;
+    grid-column: auto / span 2;
+    height: 320px;
+    justify-content: center;
+    justify-self: center;
+    overflow: hidden;
+    padding: 60px;
+    position: relative;     
+}
+.bbox, .cbox {
+    flex: none;
+    height: 150px;
+    position: relative;
+    width: 150px;
+}
+.b404SVG1, .c404SVG1 {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgb(240, 200, 8), rgb(77, 94, 133));
+}
+.BAck404 {
+    align-items: center;
+    background-color: #BFBFBF;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 20px;
+    height: min-content;
+    justify-content: center;
+    overflow: visible;
+    padding: 100px;
+    position: relative;
+}
+@media (min-width: 810px) and (max-width: 1199px) {
+    .BAck404 {
+        padding: 100px 50px;
+    }
+}
+.icoBox {
+    flex: none;
+    height: 80px;
+    position: relative;
+    width: 80px;
+}
+.icopath {
+    width: 100%;
+    height: 100%;
+    clip-path: url(#curve-PsUPn38Zh-1n4l377);
+    background: linear-gradient(315deg, rgb(240, 200, 8), rgb(77, 94, 133));
+}
+.h2Box {
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+}
+.h2Box h2 {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    color: #262626;
+    margin: 0;
+}
+.TextBox {
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+}
+.TextBox p {
+    font-weight: 500;
+    line-height: 1.5em;
+    text-align: center;
+    color: #262626;
+    margin: 0;
+    font-size: 20px;
+}
+.butt404 {
+    align-items: center;
+    background-color: #262626;
+    border-radius: 8px;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    height: 40px;
+    justify-content: center;
+    overflow: visible;
+    padding: 15px;
+    position: relative;
+}
+.butttext4 {
+    font-weight: 500;
+    line-height: 1.5em;
+    text-align: center;
+    color: #ECF23D;
+    margin: 0;
+    font-size: 20px;
+}
+.butttext4 a {
+    font-weight: 500;
+    line-height: 1.5em;
+    text-align: center;
+    color: #ECF23D;
+    margin: 0;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+
+
 
 
 footer {
